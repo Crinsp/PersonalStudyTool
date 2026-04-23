@@ -20,21 +20,6 @@ open the link, paste flashcards, study until mastered.
    learning them, two correct in a row to master. Progress persists in your
    browser.
 
-## The Claude prompt
-
-Paste this into Claude together with your study material:
-
-> Take the study material below and output tab-separated flashcards, one per
-> line. Format: `TERM<TAB>DEFINITION`. No headers, numbering, markdown, or
-> surrounding prose. Keep definitions concise but complete.
->
-> Study material:
-> <your notes here>
-
-The app also accepts these fallback separators per line, so slightly
-malformed output still parses:
-`term - definition`, `term — definition`, `term: definition`.
-
 ## Learn mode behavior
 
 - **Rounds of ~7 cards**, weighted toward cards you don't know yet.
